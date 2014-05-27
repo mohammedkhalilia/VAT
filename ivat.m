@@ -29,7 +29,7 @@ if(VATflag),
         RiV(c,r)=RiV(r,c)';
     end;
 else
-    [RV,C]=newVAT(R);
+    [RV,C]=vat(R);
     RiV=zeros(N);
     for r=2:N,
         c=1:r-1;

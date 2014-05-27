@@ -44,9 +44,9 @@ end;
 Druc=[Dr D
     D' Dc];
 
-[Dr,Pr]=VAT(Dr);
-[Dc,Pc]=VAT(Dc);
-[Druc,Pruc]=VAT(Druc);
+[Dr,Pr]=vat(Dr);
+[Dc,Pc]=vat(Dc);
+[Druc,Pruc]=vat(Druc);
 
 Dp=D(Pr,Pc);
 
